@@ -1,3 +1,49 @@
 body{
-background-color: lightgray !important;
+background-color: rgb(255, 255, 255) !important;
+background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/5DIhpKUsxSjdNUnosbvqy7/ded32d8c59c7338083b444ca73872a8c/hogwarts-legacy-desktop.jpg?fm=jpg&q=70&w=2560");
+}
+
+nav{
+    background-color: rgb(0, 0, 0) !important;
+    margin-top: -50px;
+    height: 80px;
+    color: rgb(255, 255, 255) !important;
+}
+
+nav ul li a{
+    padding-top: 30px !important;
+    color: white !important;
+    display: inline;
+}
+
+
+nav:hover{
+    background-color: rgb(0, 0, 0, 100) !important;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.wizarding{
+    max-width: 100px;
+}
+
+.home{
+    /* background-color: rgb(0, 0, 0); */
+    color: white;
+    text-align: center;
+}
+
+.home:hover{
+    background-color: black;
+}
+
+.home p{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    word-break: normal;
 }

@@ -9,22 +9,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/profile">Profile</a>
-            </li>
-          </ul>
+    <div>
+        <div>
+             <img src="https://images.ctfassets.net/usf1vwtuqyxm/7q8itiPpBa9rSqJgSxLDWf/e3f3c2c1e68ce00642f98d236afd0fbc/345808K1h_PatchBuild_WZD_LogoGoblet_On_Black-Lo-Rez.jpg" alt="wizarding world logo" class="wizarding"/>
         </div>
-      </nav>
+        <nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div>
+            <ul>
+                <li>
+                <a href="/home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                <a href="/profile">Profile</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </div>
     <div>
         {% block content %}
         <h1>Home</h1>
