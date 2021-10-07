@@ -5,15 +5,20 @@ background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/5DIhpKUsxSjdNUn
 
 nav{
     background-color: rgb(0, 0, 0) !important;
-    margin-top: -50px;
+    margin-top: -70px;
     height: 80px;
     color: rgb(255, 255, 255) !important;
+}
+
+nav ul li{
+    display: inline;
+    width: 100vw;
 }
 
 nav ul li a{
     padding-top: 30px !important;
     color: white !important;
-    display: inline;
+    display: inline-block;
 }
 
 
