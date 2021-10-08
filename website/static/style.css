@@ -1,7 +1,8 @@
 body{
 background-color: rgb(255, 255, 255) !important;
 background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/5DIhpKUsxSjdNUnosbvqy7/ded32d8c59c7338083b444ca73872a8c/hogwarts-legacy-desktop.jpg?fm=jpg&q=70&w=2560");
-background-position-x: 40%;
+background-position-x: 45%;
+background-position-y: 15%;
 }
 
 nav{
@@ -39,12 +40,40 @@ nav:hover{
     float: right;
     margin-right: 80px;
     margin-top: -55px;
+    background-color: #6b63b5;
+    border-radius: 5px;
 }
 
 #loginbtn{
     float: right;
     margin-right: 20px;
     margin-top: -55px;
+    background-color: #6b63b5;
+    border-radius: 5px;
+}
+
+#signupbtn a, #loginbtn a, #shopbtn a{
+    color: white;
+}
+
+#signupbtn :hover, #loginbtn :hover, #shopbtn :hover{
+    background-color: #746cc2;
+}
+
+#shopbtn{
+    margin: 0;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color:#6b63b5;
+    border-radius: 25px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
 }
 
 .home{
@@ -55,10 +84,27 @@ nav:hover{
 
 .home:hover{
     background-color: black;
+    opacity: .8;
+}
+
+.home h2{
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home p{
-    padding-left: 10vw;
-    padding-right: 10vw;
+    max-width: 500px;
+    text-align: center;
     word-break: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
 }

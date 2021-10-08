@@ -11,6 +11,10 @@ def main():
 def home():
     return render_template("home.html")
 
+@views.route("/shop")
+def shop():
+    return render_template("shop.html")
+
 @views.route("/profile", methods=['GET', 'POST'])
 @login_required
 def profile():
