@@ -35,9 +35,15 @@ nav:hover{
     width: 50%;
 }
 
+#signupbtn{
+    float: right;
+    margin-right: 80px;
+    margin-top: -55px;
+}
+
 #loginbtn{
     float: right;
-    margin-right: 5vw;
+    margin-right: 20px;
     margin-top: -55px;
 }
 

@@ -1,16 +1,18 @@
 from flask import Blueprint, render_template
+from flask_login import login_required, current_user
 
-views = Blueprint(__name__,"views")
+views = Blueprint('views', __name__)
 
 @views.route("/")
 def main():
-    return render_template("index.html")
+    return render_template("home.html")
 
 @views.route("/home")
 def home():
     return render_template("home.html")
 
-@views.route("/profile")
+@views.route("/profile", methods=['GET', 'POST'])
+@login_required
 def profile():
     return render_template("profile.html")
 
